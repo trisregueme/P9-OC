@@ -22,18 +22,18 @@ body {
 	font-size: 26px;
 }
 
-.nav ul {
+nav ul {
 	display: flex;
 	list-style-type: none;
 	font-size: 14px;
 	margin-bottom: 0;
 }
 
-.nav li {
+nav li {
 	padding-inline: 10px;
 }
 
-.nav a {
+nav a {
 	text-decoration: none;
 	color: #000
 }
@@ -69,8 +69,13 @@ body {
 
 .picture img {
 	width: 100%;
-
 }
+
+picture img {
+	height: auto;
+	object-fit: cover;
+}
+
 #about-me {
 	flex: 2
 }
@@ -83,11 +88,11 @@ body {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
+	font-size: 18px;
 	width: 60%;
 }
 #about-me p {
 	width: 80%;
-	font-size: 14px;
 }
 
 #gallery {
@@ -97,9 +102,10 @@ body {
 	text-align: center;
 	padding-block: 2em;
 }
-.gallery .nav {
+.gallery nav {
 	justify-content: center;
 }
+
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
 	background-color: #BEB45A;
@@ -109,6 +115,8 @@ body {
 	color: #000
 }
 .item-column {
+	width: 440px;
+	height: 440px;
 	position: relative;
 	margin-bottom: 0 !important;
 	padding: 0;
@@ -145,12 +153,14 @@ body {
 }
 .quote__text {
 	font-family: Spectral;
+	font-size: 40px;
 	font-style: italic;
 	font-weight: 300;
-
+	line-height: 1.2;
 }
 .quote__author {
 	font-family: Spectral;
+	font-size: 22px;
 	font-weight: 800;
 	font-size: 22px;
 }
@@ -324,11 +334,11 @@ input[type="submit"] {
 		flex-direction: column;
 		padding-inline: 0;
 	}
-	.top-header .nav, .top-header .nav ul {
+	.top-header nav, .top-header .nav ul {
 		width: 100%;
 		padding: 0 0 0 0;
 	}
-	.top-header .nav li {
+	.top-header nav li {
 		flex: 1;
 		padding-block: 1em;
 		text-align: center;
