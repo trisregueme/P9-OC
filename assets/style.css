@@ -106,6 +106,10 @@ picture img {
 	justify-content: center;
 }
 
+.gallery-item-row {
+	
+}
+
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
 	background-color: #BEB45A;
