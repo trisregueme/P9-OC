@@ -106,14 +106,15 @@ picture img {
 	justify-content: center;
 }
 
-.gallery-item-row {
-	
+.nav-pills{
+	font-size: 24px;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
-	background-color: #BEB45A;
-	border-radius:0 ;
+	background-color: #E5975F;
+	color: #000;
+	font-weight: 700;
+	border-radius:0;
 }
 .nav-pills .nav-link {
 	color: #000
